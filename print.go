@@ -7,5 +7,5 @@ type TestType struct {
 }
 
 func (t *TestType) PrintName() {
-	fmt.Println(t.Name)
+	fmt.Printf("%s in version v1.3.0", t.Name)
 }
